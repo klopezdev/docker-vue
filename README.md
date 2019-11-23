@@ -6,7 +6,7 @@ docker build --rm -t keensoftwarelabs/vue .
 
 ### Create a Vue Project: 
 
-docker run --rm -it -v `pwd`:/webapp/ keensoftwarelabs/vue vue create .
+docker run --rm -it -v `pwd`:/vue/ keensoftwarelabs/vue vue create .
 
 ### Run Image:
 
